@@ -1,0 +1,282 @@
+{
+    "bleepingcomputer": {
+        "base_url": "https://www.bleepingcomputer.com",
+        "selectors": {
+            "article_list": "div.bc_latest_news_list",
+            "article_link": "h4.article_title a",
+            "title": "h1.article_title",
+            "content": "div.articleBody",
+            "date": "span.article_time",
+            "author": "a.author_name",
+            "category": "span.article_category"
+        },
+        "default_category": "Security News",
+        "default_author": "BleepingComputer Staff"
+    },
+    "threatpost": {
+        "base_url": "https://threatpost.com",
+        "selectors": {
+            "article_list": "div.c-articles",
+            "article_link": "h2.c-title a",
+            "title": "h1.c-title",
+            "content": "div.c-article__content",
+            "date": "time.c-timestamp",
+            "author": "a.c-author",
+            "category": "span.c-category"
+        },
+        "default_category": "Cybersecurity",
+        "default_author": "Threatpost Staff"
+    },
+    "darkreading": {
+        "base_url": "https://www.darkreading.com",
+        "selectors": {
+            "article_list": "div.article-list",
+            "article_link": "h3.article-title a",
+            "title": "h1.article-title",
+            "content": "div.article-content",
+            "date": "time.article-date",
+            "author": "span.article-author",
+            "category": "div.article-category"
+        },
+        "default_category": "Security",
+        "default_author": "Dark Reading Staff"
+    },
+    "thehackernews": {
+        "base_url": "https://thehackernews.com",
+        "selectors": {
+            "article_list": "div.blog-posts",
+            "article_link": "a.story-link",
+            "title": "h1.story-title",
+            "content": "div.articlebody",
+            "date": "span.h-datetime",
+            "author": "span.h-author",
+            "category": "span.h-category"
+        },
+        "default_category": "Cyber Security",
+        "default_author": "The Hacker News"
+    },
+    "krebsonsecurity": {
+        "base_url": "https://krebsonsecurity.com",
+        "selectors": {
+            "article_list": "div#content",
+            "article_link": "h2.entry-title a",
+            "title": "h1.entry-title",
+            "content": "div.entry-content",
+            "date": "time.entry-date",
+            "author": "span.author",
+            "category": "span.cat-links"
+        },
+        "default_category": "Security News",
+        "default_author": "Brian Krebs"
+    },
+    "securityweek": {
+        "base_url": "https://www.securityweek.com",
+        "selectors": {
+            "article_list": "div.news-list",
+            "article_link": "h2.title a",
+            "title": "h1.title",
+            "content": "div.article-content",
+            "date": "time.date",
+            "author": "span.author",
+            "category": "div.category"
+        },
+        "default_category": "Security News",
+        "default_author": "SecurityWeek News"
+    },
+    "cyberscoop": {
+        "base_url": "https://www.cyberscoop.com",
+        "selectors": {
+            "article_list": "div.article-listing",
+            "article_link": "h2.entry-title a",
+            "title": "h1.entry-title",
+            "content": "div.entry-content",
+            "date": "time.entry-date",
+            "author": "a.author-link",
+            "category": "span.category"
+        },
+        "default_category": "News",
+        "default_author": "CyberScoop Staff"
+    },
+    "zdnet_security": {
+        "base_url": "https://www.zdnet.com/topic/security",
+        "selectors": {
+            "article_list": "div.river-block",
+            "article_link": "h3.title a",
+            "title": "h1.title",
+            "content": "div.article-content",
+            "date": "time.datetime",
+            "author": "span.author",
+            "category": "div.topic"
+        },
+        "default_category": "Security",
+        "default_author": "ZDNet Staff"
+    },
+    "infosecurity_magazine": {
+        "base_url": "https://www.infosecurity-magazine.com",
+        "selectors": {
+            "article_list": "div.news-items",
+            "article_link": "h2.title a",
+            "title": "h1.article-title",
+            "content": "div.article-body",
+            "date": "time.published-date",
+            "author": "span.author-name",
+            "category": "div.category"
+        },
+        "default_category": "News",
+        "default_author": "Infosecurity Staff"
+    },
+    "scmagazine": {
+        "base_url": "https://www.scmagazine.com",
+        "selectors": {
+            "article_list": "div.view-content",
+            "article_link": "h2.article-title a",
+            "title": "h1.page-title",
+            "content": "div.field-body",
+            "date": "div.created-date",
+            "author": "div.author-name",
+            "category": "div.category-name"
+        },
+        "default_category": "Security News",
+        "default_author": "SC Magazine Staff"
+    },
+    "therecord": {
+        "base_url": "https://therecord.media",
+        "selectors": {
+            "article_list": "div.posts-listing",
+            "article_link": "h2.entry-title a",
+            "title": "h1.entry-title",
+            "content": "div.entry-content",
+            "date": "time.entry-date",
+            "author": "a.url.fn",
+            "category": "span.category-links"
+        },
+        "default_category": "Cybersecurity News",
+        "default_author": "The Record Staff"
+    },
+    "cisomag": {
+        "base_url": "https://www.cisomag.com",
+        "selectors": {
+            "article_list": "div.td-ss-main-content",
+            "article_link": "h3.entry-title a",
+            "title": "h1.entry-title",
+            "content": "div.td-post-content",
+            "date": "time.entry-date",
+            "author": "div.td-post-author-name",
+            "category": "a.td-post-category"
+        },
+        "default_category": "Security News",
+        "default_author": "CISO MAG Staff"
+    },
+    "securityaffairs": {
+        "base_url": "https://securityaffairs.com",
+        "selectors": {
+            "article_list": "div.posts-items",
+            "article_link": "h2.post-title a",
+            "title": "h1.post-title",
+            "content": "div.entry-content",
+            "date": "span.date",
+            "author": "span.meta-author",
+            "category": "span.post-cat-wrap"
+        },
+        "default_category": "Security News",
+        "default_author": "Pierluigi Paganini"
+    },
+    "helpnetsecurity": {
+        "base_url": "https://www.helpnetsecurity.com",
+        "selectors": {
+            "article_list": "div.news-items",
+            "article_link": "h2.title a",
+            "title": "h1.article-title",
+            "content": "div.article-content",
+            "date": "time.published",
+            "author": "span.author-name",
+            "category": "div.article-category"
+        },
+        "default_category": "Featured News",
+        "default_author": "Help Net Security Staff"
+    },
+    "cybersecuritydive": {
+        "base_url": "https://www.cybersecuritydive.com",
+        "selectors": {
+            "article_list": "div.feed-items",
+            "article_link": "h3.feed__title a",
+            "title": "h1.article-header",
+            "content": "div.article-body",
+            "date": "time.published-date",
+            "author": "div.article-byline",
+            "category": "div.topic-tag"
+        },
+        "default_category": "Industry News",
+        "default_author": "Cybersecurity Dive Staff"
+    },
+    "databreachtoday": {
+        "base_url": "https://www.databreachtoday.com",
+        "selectors": {
+            "article_list": "div.articlesList",
+            "article_link": "h2.headline a",
+            "title": "h1.article-title",
+            "content": "div.article-body",
+            "date": "time.published",
+            "author": "p.byline",
+            "category": "div.topic"
+        },
+        "default_category": "Data Breach",
+        "default_author": "DataBreachToday Staff"
+    },
+    "portswigger": {
+        "base_url": "https://portswigger.net/daily-swig",
+        "selectors": {
+            "article_list": "div.news-list",
+            "article_link": "h2.card-title a",
+            "title": "h1.article-title",
+            "content": "div.article__body",
+            "date": "time.published-date",
+            "author": "span.author-name",
+            "category": "div.article-category"
+        },
+        "default_category": "Web Security",
+        "default_author": "The Daily Swig Staff"
+    },
+    "nakedsecurity": {
+        "base_url": "https://nakedsecurity.sophos.com",
+        "selectors": {
+            "article_list": "div.posts-wrapper",
+            "article_link": "h2.entry-title a",
+            "title": "h1.entry-title",
+            "content": "div.entry-content",
+            "date": "time.entry-date",
+            "author": "span.author",
+            "category": "span.cat-links"
+        },
+        "default_category": "Security News",
+        "default_author": "Sophos News"
+    },
+    "securityboulevard": {
+        "base_url": "https://securityboulevard.com",
+        "selectors": {
+            "article_list": "div.articles-list",
+            "article_link": "h2.entry-title a",
+            "title": "h1.entry-title",
+            "content": "div.entry-content",
+            "date": "time.entry-date",
+            "author": "span.author-name",
+            "category": "span.category"
+        },
+        "default_category": "Featured",
+        "default_author": "Security Boulevard Staff"
+    },
+    "cybernews": {
+        "base_url": "https://cybernews.com",
+        "selectors": {
+            "article_list": "div.news-list",
+            "article_link": "h3.title a",
+            "title": "h1.post-title",
+            "content": "div.post-content",
+            "date": "time.post-date",
+            "author": "span.author-name",
+            "category": "div.category-tag"
+        },
+        "default_category": "News",
+        "default_author": "CyberNews Team"
+    }
+}

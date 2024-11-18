@@ -1,0 +1,8 @@
+{
+    "environment": "development",
+    "mongodb_uri": "mongodb://localhost:27017",
+    "database_name": "news_db",
+    "csv_path": "data/articles.csv",
+    "scraping_interval_minutes": 30,
+    "log_file": "logs/scraper.log"
+}

@@ -1,0 +1,32 @@
+version: '3.8'
+
+services:
+  scraper:
+    build: .
+    volumes:
+      - ./data:/app/data
+      - ./logs:/app/logs
+      - ./config:/app/config
+    environment:
+      - SCRAPER_CONFIG=/app/config/scraper_config.json
+      - LOG_LEVEL=INFO
+    restart: unless-stopped
+    deploy:
+      resources:
+        limits:
+          memory: 2G
+        reservations:
+          memory: 1G
+
+  # Optional database service if needed
+  # db:
+  #   image: postgres:14-alpine
+  #   volumes:
+  #     - postgres_data:/var/lib/postgresql/data
+  #   environment:
+  #     - POSTGRES_DB=newsdb
+  #     - POSTGRES_USER=newsuser
+  #     - POSTGRES_PASSWORD=newspass
+
+volumes:
+  postgres_data: 

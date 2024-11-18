@@ -1,0 +1,19 @@
+[project]
+name = "threatintel-backend"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "aiohttp>=3.11.2",
+    "beautifulsoup4>=4.12.3",
+    "bson>=0.5.10",
+    "fastapi>=0.115.5",
+    "motor>=3.6.0",
+    "pandas>=2.2.3",
+    "pymongo>=4.9.2",
+    "python-dotenv>=1.0.1",
+    "requests>=2.32.3",
+    "selenium>=4.26.1",
+    "uvicorn>=0.32.0",
+]
